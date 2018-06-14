@@ -41,6 +41,8 @@
     NSString *finalPath = [path stringByAppendingPathComponent:@"log/Test_20170711.xlog"];
     
     //MERGE
+    //aaa commit
+    //aaa test conflic
 }
 
 - (void)show {

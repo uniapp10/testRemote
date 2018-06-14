@@ -39,6 +39,8 @@
     
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, true) firstObject];
     NSString *finalPath = [path stringByAppendingPathComponent:@"log/Test_20170711.xlog"];
+    
+    //MERGE
 }
 
 - (void)show {

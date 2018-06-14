@@ -41,6 +41,7 @@
     NSString *finalPath = [path stringByAppendingPathComponent:@"log/Test_20170711.xlog"];
     
     //MERGE
+    //MERGE 2
 }
 
 - (void)show {

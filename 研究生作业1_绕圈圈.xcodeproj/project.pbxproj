@@ -13,6 +13,7 @@
 		FC43DED220CE7CD600EE8B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC43DED120CE7CD600EE8B77 /* Assets.xcassets */; };
 		FC43DED520CE7CD600EE8B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC43DED320CE7CD600EE8B77 /* LaunchScreen.storyboard */; };
 		FC43DED820CE7CD700EE8B77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43DED720CE7CD700EE8B77 /* main.m */; };
+		FCB5B96D20D201A40098886A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5B96C20D201A40098886A /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FC43DED420CE7CD600EE8B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC43DED620CE7CD600EE8B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC43DED720CE7CD700EE8B77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCB5B96B20D201A40098886A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FCB5B96C20D201A40098886A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FC43DEC920CE7CD500EE8B77 /* AppDelegate.m */,
 				FC43DECB20CE7CD500EE8B77 /* ViewController.h */,
 				FC43DECC20CE7CD500EE8B77 /* ViewController.m */,
+				FCB5B96B20D201A40098886A /* SecondViewController.h */,
+				FCB5B96C20D201A40098886A /* SecondViewController.m */,
 				FC43DECE20CE7CD500EE8B77 /* Main.storyboard */,
 				FC43DED120CE7CD600EE8B77 /* Assets.xcassets */,
 				FC43DED320CE7CD600EE8B77 /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB5B96D20D201A40098886A /* SecondViewController.m in Sources */,
 				FC43DECD20CE7CD500EE8B77 /* ViewController.m in Sources */,
 				FC43DED820CE7CD700EE8B77 /* main.m in Sources */,
 				FC43DECA20CE7CD500EE8B77 /* AppDelegate.m in Sources */,

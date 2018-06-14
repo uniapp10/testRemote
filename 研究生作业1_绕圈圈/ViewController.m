@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -41,7 +42,8 @@
 }
 
 - (void)show {
-    
+    SecondViewController *secondVC = [[SecondViewController alloc] init];
+    [self presentViewController:secondVC animated:true completion:nil];
 }
 
 - (void)close {

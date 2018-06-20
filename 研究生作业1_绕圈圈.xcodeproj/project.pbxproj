@@ -14,6 +14,7 @@
 		FC43DED520CE7CD600EE8B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC43DED320CE7CD600EE8B77 /* LaunchScreen.storyboard */; };
 		FC43DED820CE7CD700EE8B77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43DED720CE7CD700EE8B77 /* main.m */; };
 		FCB5B96D20D201A40098886A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5B96C20D201A40098886A /* SecondViewController.m */; };
+		FCB5B99120D210E30098886A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FCB5B99020D210E30098886A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		FC43DED720CE7CD700EE8B77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCB5B96B20D201A40098886A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		FCB5B96C20D201A40098886A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FCB5B99020D210E30098886A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				FC43DECC20CE7CD500EE8B77 /* ViewController.m */,
 				FCB5B96B20D201A40098886A /* SecondViewController.h */,
 				FCB5B96C20D201A40098886A /* SecondViewController.m */,
+				FCB5B99020D210E30098886A /* README.md */,
 				FC43DECE20CE7CD500EE8B77 /* Main.storyboard */,
 				FC43DED120CE7CD600EE8B77 /* Assets.xcassets */,
 				FC43DED320CE7CD600EE8B77 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			files = (
 				FC43DED520CE7CD600EE8B77 /* LaunchScreen.storyboard in Resources */,
 				FC43DED220CE7CD600EE8B77 /* Assets.xcassets in Resources */,
+				FCB5B99120D210E30098886A /* README.md in Resources */,
 				FC43DED020CE7CD500EE8B77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +294,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5QA9CANKM;
 				INFOPLIST_FILE = "研究生作业1_绕圈圈/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,9 +314,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5QA9CANKM;
 				INFOPLIST_FILE = "研究生作业1_绕圈圈/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

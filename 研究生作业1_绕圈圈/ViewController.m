@@ -50,7 +50,8 @@
 }
 
 - (void)close {
-    
+    UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"title" message:@"xxx" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"otherbutton", nil];
+    [alertV show];
 }
 
 
